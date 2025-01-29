@@ -1,0 +1,12 @@
+@import 'src/shared/constants/breakpoints.scss';
+
+.title {
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 10px;
+  text-align: center;
+  text-wrap: balance;
+  @include media-md {
+    font-size: 1.4em;
+  }
+}

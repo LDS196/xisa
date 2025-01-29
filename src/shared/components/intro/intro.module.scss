@@ -1,0 +1,33 @@
+
+.intro {
+  height: 500px;
+  color: white;
+  position: relative;
+  background-image: url('/images/intro-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 10px;
+
+
+  .title {
+    padding-top: 350px;
+
+    h1 {
+      text-align: right;
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+
+  .slide1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .slide2 {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+}

@@ -1,0 +1,20 @@
+@import 'breakpoints';
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+  --screen-sm: #{$screen-sm};
+  --screen-md: #{$screen-md};
+  --screen-lg: #{$screen-lg};
+  --screen-xl: #{$screen-xl};
+
+  //colors
+  --primary: #FFFFFF;
+  --accent: #800020;
+  --secondary:#0a0e11;
+
+}
+
+
+
+
+

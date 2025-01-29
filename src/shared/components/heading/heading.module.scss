@@ -1,0 +1,56 @@
+@import 'src/shared/styles/breakpoints.scss';
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1440px;
+  background-color: transparent;
+  z-index: 1000;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--primary);
+
+  span:first-child {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  span:last-child {
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 9px;
+  }
+
+}
+
+.nav {
+  ul {
+    display: flex;
+    gap: 10px;
+
+    li {
+      a {
+        color: var(--primary);
+        font-weight: 500;
+        font-size: 12px;
+
+        &:hover {
+          color: var(--accent);
+        }
+      }
+    }
+  }
+}
