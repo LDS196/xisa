@@ -10,7 +10,9 @@
     color: inherit;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0 auto;
     width: 100%;

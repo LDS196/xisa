@@ -1,12 +1,12 @@
 export const navigationIds = {
 	intro: 'intro',
-	technology: 'about',
+	about: 'about',
 	portfolio: 'portfolio',
-	about: 'contacts',
+	contacts: 'contacts',
 }
 
 export const navList = [
-	{ id: navigationIds.intro, title: 'О СТУДИИ' },
-	{ id: navigationIds.technology, title: 'ПОРТФОЛИО' },
-	{ id: navigationIds.portfolio, title: 'КОНТАКТЫ' },
+	{ id: navigationIds.about, title: 'О НАС' },
+	{ id: navigationIds.portfolio, title: 'ПОРТФОЛИО' },
+	{ id: navigationIds.contacts, title: 'КОНТАКТЫ' },
 ]
