@@ -1,5 +1,6 @@
 import styles from './intro.module.scss'
 import { MSlide } from '@/shared/components/mslide/mslide'
+import { Button } from '@/shared/components/ui/button/button'
 
 export const Intro = () => {
 
@@ -20,6 +21,10 @@ export const Intro = () => {
 				<h1>Beauty-студия</h1>
 				<h2>эстетического перманентного макияжа</h2>
 			</div>
+			<div className={styles.button}>
+				<Button title={'записаться'}/>
+			</div>
+
 
 		</section>
 	)
