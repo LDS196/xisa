@@ -18,7 +18,7 @@ export const Intro = () => {
 
 			<div className={styles.title}>
 				<h1>Beauty-студия</h1>
-				<h2>перманентного макияжа и дизайна бровей </h2>
+				<h2>эстетического перманентного макияжа</h2>
 			</div>
 
 		</section>
