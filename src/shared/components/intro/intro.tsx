@@ -14,7 +14,7 @@ export const Intro = () => {
 				<MSlide url={'/images/permanent1.jpg'} height={190} width={190} />
 			</div>
 			<div className={styles.slide2}>
-				<MSlide url={'/images/permanent2.jpg'} height={210} width={210}/>
+				<MSlide url={'/images/permanent2.jpg'} height={210} width={210} delay={0.7}/>
 			</div>
 
 			<div className={styles.title}>

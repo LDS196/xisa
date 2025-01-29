@@ -7,8 +7,9 @@ type MSlideProps = {
 	url: string
 	height: number
 	width: number
+	delay?: number
 }
-export const MSlide: FC<MSlideProps> = ({ url, height, width }) => {
+export const MSlide: FC<MSlideProps> = ({ url, height, width,delay }) => {
 	const style = { backgroundImage: `url(${url})`, height, width }
 
 	return (
@@ -19,7 +20,7 @@ export const MSlide: FC<MSlideProps> = ({ url, height, width }) => {
 			animate={{ opacity: 1, scale: 1 }}
 			transition={{
 				duration: 0.8,
-				delay: 0.5,
+				delay: delay|| 0.5,
 				ease: [0, 0.71, 0.2, 1.01],
 			}}
 		/>
