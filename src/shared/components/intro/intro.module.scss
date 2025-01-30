@@ -1,7 +1,7 @@
 
 .intro {
-flex-grow:1 ;
-  height: auto;
+  flex-grow: 1;
+  min-height: 530px;
   color: white;
   position: relative;
   background-image: url('/images/intro-bg.png');
@@ -23,7 +23,8 @@ flex-grow:1 ;
       font-size: 32px;
       font-weight: 700;
     }
-    h2{
+
+    h2 {
 
     }
   }
@@ -33,13 +34,14 @@ flex-grow:1 ;
     top: 10%;
     left: 5%;
   }
+
   .slide2 {
     position: absolute;
     top: 30%;
     left: 40%;
   }
 
-  .button{
+  .button {
     position: absolute;
     bottom: -1%;
     left: 50%;
