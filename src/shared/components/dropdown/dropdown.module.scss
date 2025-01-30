@@ -1,0 +1,18 @@
+
+.dropdown {
+  background-color: #e8e6e2;
+  border-bottom: 1px solid var(--accent);
+}
+
+.item {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px 10px;
+
+  p {
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+}

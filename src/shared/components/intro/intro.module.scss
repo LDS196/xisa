@@ -1,6 +1,7 @@
 
 .intro {
-  height: 530px;
+flex-grow:1 ;
+  height: auto;
   color: white;
   position: relative;
   background-image: url('/images/intro-bg.png');
@@ -40,7 +41,7 @@
 
   .button{
     position: absolute;
-    bottom: -2%;
+    bottom: -1%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
