@@ -1,6 +1,5 @@
 'use client'
 import React, { FC } from 'react'
-import styles from './dropdown-content.module.scss'
 import { AnimatePresence } from 'framer-motion'
 import { motion } from 'framer-motion'
 

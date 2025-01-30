@@ -1,7 +1,7 @@
 'use client'
 import styles from './dropdown.module.scss'
 import React, { FC, useState } from 'react'
-import {  DropdownContent } from '@/shared/components/ui/dropdown/dropdown-content'
+import {  DropdownContent } from '@/shared/components/dropdown/dropdown-content/dropdown-content'
 import { MdArrowDownward } from 'react-icons/md'
 
 type DropdownType = {
